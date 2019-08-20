@@ -28,7 +28,11 @@
        + 下载固件升级工具 firmware_upgrade_utility 
        + 下载车型所适配的固件 
        + 检查串口驱动已经正常安装，能否正常使用，具体可以通过设备管理器查看当前串口是否已经安装驱动
-       ![设备管理器]()
+       ![设备管理器](https://github.com/AglieX/agilex_firmware/blob/master/photos/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8.png)
     - 硬件准备（整车固件升级）
-       + 
+       + 串口DB9口连接至底盘上DB9接口，此时整车未上电
+
+- **软件升级**
+   - 打开firmware_upgrade_utility 软件
+   - 
     
