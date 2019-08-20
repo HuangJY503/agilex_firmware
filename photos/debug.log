@@ -18,3 +18,9 @@
 [0820/142729:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
 [0820/143059:INFO:exception_record.cc(518)] [QB]Process ID: 24848 Type: 2
 [0820/165503:INFO:exception_record.cc(518)] [QB]Process ID: 19876 Type: 2
+[0820/185809:INFO:exception_record.cc(518)] [QB]Process ID: 23880 Type: 4
+[0820/191629:INFO:exception_record.cc(518)] [QB]Process ID: 26404 Type: 2
+[0820/192406:INFO:exception_record.cc(518)] [QB]Process ID: 19324 Type: 2
+[0820/194719:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[0820/194724:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[0820/194742:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
