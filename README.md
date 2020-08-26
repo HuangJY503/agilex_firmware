@@ -40,7 +40,8 @@
 
 - **软件升级**
    - 打开firmware_upgrade_utility 软件，如下图所示,**波特率以及其他相关参数已经预置，不需要客户自行设置**，端口号如果驱动已经正常安装，端口号会自动读取，不需要客户自行选择
-   ![升级固件工具](https://github.com/AglieX/agilex_firmware/blob/master/photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6.png)
+   ![升级固件工具中文版](https://github.com/AglieX/agilex_firmware/blob/master/photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6.png)
+   ![升级固件工具英文版截图](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6_EN.png)
    
    - 点击**开始连接**按钮
 
