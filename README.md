@@ -43,6 +43,10 @@
    ![升级固件工具中文版](https://github.com/AglieX/agilex_firmware/blob/master/photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6.png)
    ![升级固件工具英文版截图](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6_EN.png)
    
+   - 对于使用我们配套的USB转RS232的客户，在**升级工具**中选择**usb 转 RS232**
+
+   - 然后选择合适的COM端口即可
+
    - 点击**开始连接**按钮
 
    - 立即给SCOUT/HUNtER 底盘上电即可，连接成功后，可以显示当前机器人版本号，在升级前建议记录此版本号，以免在发生未知情况时可正常回滚
