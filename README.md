@@ -1,6 +1,6 @@
 ### 松灵机器人（东莞）有限公司 UGV 产品固件升级说明文档
 
-![scout](https://github.com/AglieX/agilex_firmware/blob/master/photos/SCOUT%E6%95%B4%E8%BD%A6.293.png)
+![scout](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/%E4%BA%A7%E5%93%81%E7%9F%A9%E9%98%B5.png)
 ---
 
 #### 文件说明说明
