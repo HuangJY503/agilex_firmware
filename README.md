@@ -3,7 +3,7 @@
 ![AgileX robotics product view](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/%E4%BA%A7%E5%93%81%E7%9F%A9%E9%98%B5.png)
 ---
 
-- For chinese version help document please view![中文版本说明](https://github.com/agilexrobotics/agilex_firmware/blob/master/README_CN.md)
+- For chinese version help document please view [中文版本说明](https://github.com/agilexrobotics/agilex_firmware/blob/master/README_CN.md)
 
 --- 
 
