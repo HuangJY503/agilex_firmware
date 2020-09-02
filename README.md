@@ -1,75 +1,64 @@
-### 松灵机器人（东莞）有限公司 UGV 产品固件升级说明文档
+### AgileX Robotics (Dongguan) UGV Product Firmware 
 
-![scout](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/%E4%BA%A7%E5%93%81%E7%9F%A9%E9%98%B5.png)
+![AgileX robotics product view](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/%E4%BA%A7%E5%93%81%E7%9F%A9%E9%98%B5.png)
 ---
 
-#### 文件说明说明
-- **cp210_drivers** 
+- For chinese version help document please view![中文版本说明](https://github.com/agilexrobotics/agilex_firmware/README_CN.md)
 
-   驱动板使用串口驱动文件
-- **firmware_bin_files**
-   + hunter
+--- 
 
-     UGV 产品 HUNTER 支持固件列表以及必要的说明文件
-   + scout
+
+#### Drivers Document
+- **cp210_drivers**
+
+    USB to RS232 serial  for windows system drivers files
+
+- **Firmware bin files**
+    + HUNTER
+
+    HUNTER supported firmware list and necessary documentation
+    + SCOUT MINI 
+    + SCOUT 1.0
+    + SCOUT 2.0
+
+    SCOUT supported firmware list and necessary documentation
+
+    + TRACER
+    + BUNKER
+
+#### Firmware upgrade instructions
+- **Prepare Work**
+    -  Software preparation
+
+        + Download firmware upgrade tool firmware_upgrade_utility
+        + Download the firmware for the model, confirm the hardware currently in use, the product has been continuously optimized, and some accessories require corresponding configuration to support.
+        +  Check whether the serial port driver has been installed normally and whether it can be used normally. You can check whether the current serial port has a driver installed in the device manager.
+        ![Device management](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/device_manager.png)
+    - Hardware preparation
+        
+        + The serial port DB9 port is connected to the DB9 port on the chassis, and the robot is not powered on at this time.
+
+- **Firmware upgrade** 
+    -    Turn on the firmware_upgrade_utility software, as shown in the figure below,**the baud rate and other related parameters have been preset and do not need to be set by the customer**. If the driver has been installed normally, the port number will be automatically read.
+    photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6.png)
+    ![Firmware upgraade software tools](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6_EN.png)
+
+    + For customers who use the USB to RS232 cable, choose **USB to RS232** in the **upgrade tool**.
+    + Then select the appropriate **COM port**.
+    + Click the start connection button.
+    + Power on therobot immediately. After the connection is successful, the current robot version number can be displayed. It is recommended to record this version number before upgrading to avoid normal rollback in the event of unknown circumstances.
+    + Click the Load File button and select the firmware to be upgraded.
+    + Click to start upgrade.
+    + If the upgrade is successful, it will prompt the upgrade completion prompt box.
+    + Power off and restart.
+
+###  Questions and Solutions
+1. After clicking start to connect, it shows that the connection timeout cannot connect?
+
+    - Check whether the connection of the serial port is reliable, check whether the connection between the serial port and the UGV chassis panel is reliable, and confirm that the connection is normal.
+    - Check whether multiple serial devices are mounted on the computer at the same time and causing COM read errors.
+    -  If you can’t solve it, please contact support@agilex.ai.
+
+2. The connection is normal, but after clicking to start the upgrade, the progress bar is normal at first, and then stuck.
     
-     UGV 产品 SCOUT 支持固件列表以及必要的说明文件
-- **firmware_upgrade_utility**
-
-    固件升级工具软件
-
-- **rs232_drivers**
-
-    主板串口驱动，不同型号的串口驱动不同，此驱动仅适配松灵产品通讯包配件所使用串口
-
----
-#### 固件升级使用说明
-- **准备工作**
-    - 软件准备
-
-       + 下载固件升级工具 firmware_upgrade_utility 
-
-       + 下载车型所适配的固件，确认当前使用的硬件，产品一直在不断优化，有些配件需要相应的配置才能支持
-
-       + 检查串口驱动已经正常安装，能否正常使用，具体可以通过设备管理器查看当前串口是否已经安装驱动
-       ![设备管理器](https://github.com/AglieX/agilex_firmware/blob/master/photos/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8.png)
-
-    - 硬件准备
-
-       + 串口DB9口连接至底盘上DB9接口，此时整车未上电
-
-- **软件升级**
-   - 打开firmware_upgrade_utility 软件，如下图所示,**波特率以及其他相关参数已经预置，不需要客户自行设置**，端口号如果驱动已经正常安装，端口号会自动读取，不需要客户自行选择
-   ![升级固件工具中文版](https://github.com/AglieX/agilex_firmware/blob/master/photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6.png)
-   ![升级固件工具英文版截图](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/%E5%8D%87%E7%BA%A7%E8%BD%AF%E4%BB%B6_EN.png)
-   
-   - 对于使用我们配套的USB转RS232的客户，在**升级工具**中选择**usb 转 RS232**
-
-   - 然后选择合适的COM端口即可
-
-   - 点击**开始连接**按钮
-
-   - 立即给SCOUT/HUNtER 底盘上电即可，连接成功后，可以显示当前机器人版本号，在升级前建议记录此版本号，以免在发生未知情况时可正常回滚
-
-   - 点击**加载文件**按钮，选择需要升级的固件
-
-   - 点击**开始升级**
-
-   - 若升级成功，会提示升级完成提示框。
-
-   - 断电重启即可。
----
-
-### 常见问题与解决
- 1. 点击开始连接以后，显示**连接超时**无法连接？
-
- - 检查串口的连接是否可靠，检查串口与UGV底盘面板处连接是否可靠，确认已经连接正常
- - 检查电脑上是否同时挂载了多个串口设备导致COM 读取错误
- - 若无法解决可以联系 support@agilex.ai
-
- 2. 连接正常，但是点击**开始升级**以后，进度条一开始正常，然后卡住不动了
- - 可能的原因的传输出现了异常，建议重新建立连接，再次下载。
- ---
-
-
-    
+    -  The possible reason is that the transmission is abnormal. It is recommended to re-establish the connection and download again.
