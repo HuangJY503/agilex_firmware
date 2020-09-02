@@ -25,7 +25,7 @@
         + Download firmware upgrade tool firmware_upgrade_utility
         + Download the firmware for the model, confirm the hardware currently in use, the product has been continuously optimized, and some accessories require corresponding configuration to support.
         +  Check whether the serial port driver has been installed normally and whether it can be used normally. You can check whether the current serial port has a driver installed in the device manager.
-        ![Device management](https://github.com/AglieX/agilex_firmware/blob/master/photos/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86%E5%99%A8.png)
+        ![Device management](https://github.com/agilexrobotics/agilex_firmware/blob/master/photos/device_manager.png)
     - Hardware preparation
         
         + The serial port DB9 port is connected to the DB9 port on the chassis, and the robot is not powered on at this time.
